@@ -1,12 +1,22 @@
 <template>
-  <h1></h1>
+  <nav></nav>
 </template>
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, PropType } from "vue";
 
 export interface UserProps {
   isLogin: boolean;
+  name?: string;
+  id?: number;
 }
 
-export default defineComponent({});
+export default defineComponent({
+  name: "GlobalHeader",
+  props: {
+    user: {
+      type: Object as PropType<UserProps>,
+      required: true
+    }
+  }
+});
 </script>
