@@ -4,7 +4,7 @@
     <!-- <ColumnList :list="list"></ColumnList> -->
     <form>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <label for="exampleInputEmail1" class="form-label">邮箱地址</label>
         <input
           type="email"
           class="form-control"
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <label for="exampleInputPassword1" class="form-label">密码</label>
         <input
           type="password"
           class="form-control"
